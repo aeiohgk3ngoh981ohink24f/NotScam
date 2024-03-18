@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BIO 30 Course Overview</title>
+    <style>
+        html, body {
+            height: 100%;
+            margin: 0;
+            padding: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: url('https://th.bing.com/th/id/R.e8773001720008437086c4fa13bef636?rik=fMLjth0Fd%2bKdHw&pid=ImgRaw&r=0') no-repeat center center fixed; 
+            background-size: cover;
+            color: #333333;
+            box-sizing: border-box;
+        }
+        body {
+            display: flex;
+            flex-direction: column;
+        }
+        header {
+            background-image: url('https://wallpaperaccess.com/full/2852782.jpg');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            color: #FFFFFF;
+            padding: 40px 20px;
+            text-align: center;
+            position: relative;
+        }
+        header::after {
+            content: '';
+            position: absolute;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            left: 0;
+            background: rgba(0, 0, 0, 0.5);
+            z-index: 0;
+        }
+        header h1 {
+            font-size: 2.5em;
+            background: -webkit-linear-gradient(left, purple, blue); 
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            color: transparent; 
+            margin: 0;
+            position: relative;
+            z-index: 1;
+        }
+        main {
+            flex: 1;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+        }
+        section {
+            background-color: #E8F0FE;
+            margin: 20px auto;
+            padding: 20px;
+            border-radius: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            max-width: 800px;
+            width: 80%;
+            box-sizing: border-box;
+        }
+        .ready-button {
+            display: block; 
+            width: 200px; 
+            padding: 10px 15px; 
+            margin: 20px auto;
+            font-size: 1em; 
+            color: white;
+            background: linear-gradient(270deg, purple, blue);
+            background-size: 200% 100%;
+            border: none;
+            border-radius: 25px;
+            text-decoration: none;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+            cursor: pointer;
+            transition: background-position 1s ease;
+            text-align: center;
+        }
+        
+        .ready-button:hover {
+            background-position: right bottom;
+        }
+        
+        
+        
+        .ready-button:active {
+            transform: scale(0.95); 
+            transition: transform 0.1s ease; 
+        }
+        footer {
+            color: white;
+            text-align: center;
+            padding: 10px;
+            border-radius: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            margin: 20px auto;
+            max-width: 800px;
+            width: 80%;
+            box-sizing: border-box;
+            background: linear-gradient(to left, orange, yellow);
+        }
+        p, li {
+            color: #666;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        li::before {
+            content: "🔹";
+            color: #b13ccf;
+            padding-right: 8px;
+        }
+        /* CSS Style Here :P */
+    </style>
+</head>
+<body>
+    <header>
+        <h1>BIO 30: Advanced Biology</h1>
+    </header>
+    <main>
+        <section>
+            <h2>Course Description</h2>
+            <p>This course offers an advanced study of biology, covering topics such as genetics, ecology, evolution, and human anatomy. It's designed for students with a keen interest in the biological sciences and those pursuing a career in related fields.</p>
+        </section>
+
+        <section>
+            <h2>Course Objectives</h2>
+            <ul>
+                <li>Engage with core biological concepts and theories.</li>
+                <li>Develop a critical understanding of biological research and its implications.</li>
+                <li>Apply knowledge to solve complex problems and hypothesize new ideas.</li>
+                <li>Cultivate scientific inquiry and lifelong learning skills.</li>
+            </ul>
+        </section>
+
+        <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" class="ready-button" target="_blank" rel="noopener noreferrer">Ready</a>
+
+        
+    </main>
+    <footer>
+        <p>Created by RareFlames</p>
+    </footer>
+</body>
+</html>
